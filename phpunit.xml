@@ -21,9 +21,9 @@
         <exclude>
             <directory>vendor/</directory>
         </exclude>
-        <logging>
+     <!--   <logging>
             <clover target="clover.xml"/>
-        </logging>
+        </logging> -->
     </coverage>
     <php>
         <ini name="xdebug.mode" value="coverage"/>
@@ -36,11 +36,11 @@
             <directory suffix=".php">./vendor</directory>
         </include>
     </coverage>
--->
+
     <php>
         <ini name="serialize_precision" value="14"/>
     </php>
-         
+         -->
          
          
 </phpunit>
